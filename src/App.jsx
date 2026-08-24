@@ -157,7 +157,7 @@ export default function App() {
                 <div className="meta-value">
                   <a
                     href="mailto:ktalha2210@gmail.com"
-                    style={{ color: '#8B5CF6', textDecoration: 'none', fontWeight: '800', fontSize: '1.05rem', wordBreak: 'break-all' }}
+                    style={{ color: 'var(--primary-purple)', textDecoration: 'none', fontWeight: '800', fontSize: '1.05rem', wordBreak: 'break-all' }}
                   >
                     ktalha2210@gmail.com
                   </a>
