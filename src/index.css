@@ -281,30 +281,36 @@ body {
 
 .meta-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.25rem;
 }
 
 .meta-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border-light);
-  padding: 1rem 1.25rem;
-  border-radius: var(--radius-sm);
-  box-shadow: var(--shadow-sm);
+  background: rgba(139, 92, 246, 0.04);
+  border: 1.5px solid rgba(139, 92, 246, 0.2);
+  padding: 1.2rem 1.5rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(139, 92, 246, 0.05);
+  transition: all 0.2s ease;
+}
+
+.meta-card:hover {
+  border-color: rgba(139, 92, 246, 0.4);
+  transform: translateY(-2px);
 }
 
 .meta-label {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  color: var(--text-muted);
-  font-weight: 600;
-  margin-bottom: 0.25rem;
+  letter-spacing: 0.8px;
+  color: #8B5CF6;
+  font-weight: 800;
+  margin-bottom: 0.4rem;
 }
 
 .meta-value {
-  font-size: 0.95rem;
-  font-weight: 700;
+  font-size: 1.15rem;
+  font-weight: 800;
   color: var(--text-main);
 }
 

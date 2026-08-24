@@ -125,20 +125,43 @@ export default function App() {
             </p>
             <div className="meta-grid">
               <div className="meta-card">
-                <div className="meta-label">Domain</div>
-                <div className="meta-value">Mobile App / AI</div>
+                <div className="meta-label">Published Date</div>
+                <div className="meta-value">22 August 2026</div>
               </div>
               <div className="meta-card">
-                <div className="meta-label">Methodology</div>
-                <div className="meta-value">JTBD & Mom Test</div>
+                <div className="meta-label">Read Time</div>
+                <div className="meta-value">~6 Mins</div>
               </div>
               <div className="meta-card">
-                <div className="meta-label">Prioritization</div>
-                <div className="meta-value">ICE & PIF Framework</div>
+                <div className="meta-label">Made By</div>
+                <div className="meta-value" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  Talha Khan
+                  <a
+                    href="https://linkedin.com/in/talha-khan-54b716269"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                    style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', textDecoration: 'none' }}
+                  >
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ borderRadius: '4px' }}>
+                      <rect width="24" height="24" rx="4" fill="#0A66C2"/>
+                      <path d="M7.5 9.5H5V18.5H7.5V9.5Z" fill="white"/>
+                      <circle cx="6.25" cy="6.75" r="1.5" fill="white"/>
+                      <path d="M18.5 13C18.5 11.067 17.067 9.5 15.25 9.5C14.284 9.5 13.416 9.916 12.8 10.586V9.5H10.5V18.5H12.8V13.75C12.8 12.783 13.533 12 14.5 12C15.467 12 16 12.783 16 13.75V18.5H18.5V13Z" fill="white"/>
+                    </svg>
+                  </a>
+                </div>
               </div>
               <div className="meta-card">
-                <div className="meta-label">Role</div>
-                <div className="meta-value">Product Manager</div>
+                <div className="meta-label">Contact Me</div>
+                <div className="meta-value">
+                  <a
+                    href="mailto:ktalha2210@gmail.com"
+                    style={{ color: '#8B5CF6', textDecoration: 'none', fontWeight: '800', fontSize: '1.05rem', wordBreak: 'break-all' }}
+                  >
+                    ktalha2210@gmail.com
+                  </a>
+                </div>
               </div>
             </div>
           </div>
